@@ -1,0 +1,22 @@
+{
+  "name": "Bulk image downloader",
+  "description": "Download every image on a web page",
+  "version": "0.1",
+  "permissions": ["tabs", "activeTab", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+    "matches": ["<all_urls>"],
+    "js": ["jquery-3.6.0.min.js", "content.js"]
+    }
+  ],
+  "manifest_version": 3
+
+
+}
