@@ -1,10 +1,5 @@
 # Bulk-Image-downloader
 
-WIP
-Chrome extension that should get all images on a webpage and mass download them from the popup.
+Chrome extension that mass downloads all images from a webpage.
 
-Does not work as inteded, it has very limited functionality.
-Only works on Google Images search where it only gets a few results on the initial search.
-Scrolling down makes more apear. The results vary depending on the search topic.
-
-The problem should be in the image identifiyng criteria. 
+Previews all images in the popup containing the download button.
